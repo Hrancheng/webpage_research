@@ -28,7 +28,7 @@ nav ul li a {
 }
 
 .intro.content h1 {
-    color: #333;
+    color: #b32424;
     margin: 0; /* Removes default margin */
     text-align: center; /* Aligns text in the center */
     flex-grow: 1; /* Makes the h1 expand to fill the space */
