@@ -8,6 +8,12 @@ header {
     align-items: center;
     padding: 1rem;
 }
+header title {
+    margin: 0; /* Removes default margin */
+    text-align: center; /* Aligns text in the center */
+    flex-grow: 1; /* Makes the h1 expand to fill the space */
+}
+
 
 nav ul {
     list-style: none;
