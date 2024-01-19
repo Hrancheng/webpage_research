@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    width: 50px; /* Adjust as necessary */
+}
+
+.intro h1 {
+    color: #333;
+}
+
+.group-photo img {
+    width: 100%;
+    max-width: 600px; /* Adjust as necessary */
+    height: auto;
+}
+
+/* Add additional styles for layout, typography, and responsive design */
