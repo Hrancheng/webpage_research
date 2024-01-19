@@ -8,12 +8,6 @@ header {
     align-items: center;
     padding: 1rem;
 }
-header title {
-    margin: 0; /* Removes default margin */
-    text-align: center; /* Aligns text in the center */
-    flex-grow: 1; /* Makes the h1 expand to fill the space */
-}
-
 
 nav ul {
     list-style: none;
@@ -35,12 +29,24 @@ nav ul li a {
 
 .intro h1 {
     color: #333;
+    margin: 0; /* Removes default margin */
+    text-align: center; /* Aligns text in the center */
+    flex-grow: 1; /* Makes the h1 expand to fill the space */
 }
 
 .group-photo img {
     width: 100%;
     max-width: 600px; /* Adjust as necessary */
     height: auto;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    max-width: 50%; /* Limits the width of the content to the left half */
+    margin-right: auto; /* Pushes the content to the left */
 }
 
 /* Add additional styles for layout, typography, and responsive design */
