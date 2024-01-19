@@ -27,7 +27,7 @@ nav ul li a {
     width: 50px; /* Adjust as necessary */
 }
 
-.intro h1 {
+.intro.content h1 {
     color: #333;
     margin: 0; /* Removes default margin */
     text-align: center; /* Aligns text in the center */
